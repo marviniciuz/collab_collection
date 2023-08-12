@@ -1,5 +1,18 @@
-# CODIGO ACIMA FUNCIONA DA SEGUINTE FORMA:
+# EXPLICNADO O CODIGO :
 
+```python
+i = 1
+
+L = int(input("digite um numero inteito"))
+
+while i < 10:
+  if L == 0:
+     L = int(input("digite um numero inteito"))
+  else:
+    L = L + 2
+    i = i + 1
+    print(L)
+```
 
 O valor de ***i = 1***, ate ai tudo ok, essa variavel controla o fluxo do ***while*** sendo assim atribuimos um valor inicial que poderia ser qualquer um.
 
