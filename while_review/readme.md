@@ -1,4 +1,45 @@
-# EXPLICNADO O CODIGO :
+# WHILE 
+
+```python
+while condição:
+    bloco de codigo
+    variavel de controle
+ ```  
+
+Beleza, no while, primeiro temos a a condição, depois vem a ação caso esta condição seja verdadeira, mas pra que o codigo não vire um loop infinito, e necessario adicionar um controle.
+
+## exemplo:
+```python
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+```
+Temos a variavel ***i = 1***, que inicialmente contem o valor de 1, logo em seguida abrimos o bloco de codigo ***while***:
+
+### 1 parte:
+equanto i for menor ou igual a 5:
+```python
+while i <= 5:
+``` 
+
+### 2 parte:
+equanto i for menor ou igual a 5, imprime o valor de i.
+```python
+print(i)
+```
+***imprime o valor de i?***
+
+Sim, sabemos que o valor de ***i = 1***, mas ai e que entra variavel de controle, a que faz com que o codigo não vire um loop infinito.
+
+### 3 parte:
+A cada iteração do codigo sera adicinado +1, sendo assim, inicia com 1 e finaliza com 5, por que a condição e ***equanto i for menor ou igual a 5***, este codigo imprime o valor 5, mas não segue em diante, dada a sua condição.
+
+```python
+i += 1 
+```
+
+## EXPLICNADO O CODIGO :
 
 ```python
 i = 1
